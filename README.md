@@ -38,3 +38,5 @@ php artisan key:generate
 php artisan migrate
 
 ```
+
+## Selamat Laravel Kalian Sudah Bisa Berjalan
