@@ -9,7 +9,16 @@
 </head>
 
 <body>
-    <h1>Ini dashboard</h1>
+    <h1>Halo gess. ini panduan singkat ya untuk membaca laravel</h1>
+    <ol>
+        <li>migration = tabel database</li>
+        <li>model = relasi</li>
+        <li>controller = logic dan penghubung</li>
+        <li>view = tampilan</li>
+        <li>routing (web.php) = arah</li>
+    </ol>
+    <h2>masih bingung?? coba baca lagi konsep MVC pada laravel </h2>
+    <a href="{{ route("product.index") }}">Klik ini untuk memulai</a>
 </body>
 
 </html>
