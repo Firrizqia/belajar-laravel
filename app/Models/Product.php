@@ -13,6 +13,12 @@ class Product extends Model
         "name",
         "price",
     ];
+
+    // Nama fungsi JAMAK (pake 's') karena variannya bisa banyak
+    public function variants()
+    {
+        return $this->hasMany(Variant::class);
+    }
 }
 
 
