@@ -73,4 +73,15 @@ class ProductController extends Controller
         $product->delete();
         return redirect()->route('product.index')->with('success', 'Produk berhasil dihapus');
     }
+
+    // Di Controller
+    public function show($id)
+    {
+        $product = Product::find($id);
+        return view('product-detail', compact('product'));
+    }
+    public function getDetail()
+    {
+        return view('product-detail');
+    }
 }
